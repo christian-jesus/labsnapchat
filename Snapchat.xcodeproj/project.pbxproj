@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		09117BEF2C177F42002EEA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09117BEE2C177F42002EEA5A /* AppDelegate.swift */; };
 		09117BF12C177F42002EEA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09117BF02C177F42002EEA5A /* SceneDelegate.swift */; };
-		09117BF32C177F42002EEA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09117BF22C177F42002EEA5A /* ViewController.swift */; };
+		09117BF32C177F42002EEA5A /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09117BF22C177F42002EEA5A /* iniciarSesionViewController.swift */; };
 		09117BF62C177F42002EEA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09117BF42C177F42002EEA5A /* Main.storyboard */; };
 		09117BF82C177F44002EEA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09117BF72C177F44002EEA5A /* Assets.xcassets */; };
 		09117BFB2C177F44002EEA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09117BF92C177F44002EEA5A /* LaunchScreen.storyboard */; };
 		09117C062C177F44002EEA5A /* SnapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09117C052C177F44002EEA5A /* SnapchatTests.swift */; };
 		09117C102C177F44002EEA5A /* SnapchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09117C0F2C177F44002EEA5A /* SnapchatUITests.swift */; };
 		09117C122C177F44002EEA5A /* SnapchatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09117C112C177F44002EEA5A /* SnapchatUITestsLaunchTests.swift */; };
+		09117C1F2C1784DF002EEA5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09117C1E2C1784DF002EEA5A /* GoogleService-Info.plist */; };
+		09117C222C178ACA002EEA5A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 09117C212C178ACA002EEA5A /* FirebaseAuth */; };
+		09117C242C178ACA002EEA5A /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 09117C232C178ACA002EEA5A /* FirebaseAuthCombine-Community */; };
+		09117C262C178ACA002EEA5A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 09117C252C178ACA002EEA5A /* FirebaseDatabase */; };
+		09117C282C178ACA002EEA5A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 09117C272C178ACA002EEA5A /* FirebaseStorage */; };
+		09117C302C179305002EEA5A /* imagen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 09117C2F2C179305002EEA5A /* imagen2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		09117BEB2C177F42002EEA5A /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09117BEE2C177F42002EEA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09117BF02C177F42002EEA5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09117BF22C177F42002EEA5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09117BF22C177F42002EEA5A /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 		09117BF52C177F42002EEA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09117BF72C177F44002EEA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09117BFA2C177F44002EEA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		09117C0B2C177F44002EEA5A /* SnapchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09117C0F2C177F44002EEA5A /* SnapchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatUITests.swift; sourceTree = "<group>"; };
 		09117C112C177F44002EEA5A /* SnapchatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09117C1E2C1784DF002EEA5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09117C2F2C179305002EEA5A /* imagen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imagen2.png; path = ../../Downloads/imagen2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09117C262C178ACA002EEA5A /* FirebaseDatabase in Frameworks */,
+				09117C282C178ACA002EEA5A /* FirebaseStorage in Frameworks */,
+				09117C222C178ACA002EEA5A /* FirebaseAuth in Frameworks */,
+				09117C242C178ACA002EEA5A /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +91,7 @@
 		09117BE22C177F42002EEA5A = {
 			isa = PBXGroup;
 			children = (
+				09117C2F2C179305002EEA5A /* imagen2.png */,
 				09117BED2C177F42002EEA5A /* Snapchat */,
 				09117C042C177F44002EEA5A /* SnapchatTests */,
 				09117C0E2C177F44002EEA5A /* SnapchatUITests */,
@@ -99,9 +112,10 @@
 		09117BED2C177F42002EEA5A /* Snapchat */ = {
 			isa = PBXGroup;
 			children = (
+				09117C1E2C1784DF002EEA5A /* GoogleService-Info.plist */,
 				09117BEE2C177F42002EEA5A /* AppDelegate.swift */,
 				09117BF02C177F42002EEA5A /* SceneDelegate.swift */,
-				09117BF22C177F42002EEA5A /* ViewController.swift */,
+				09117BF22C177F42002EEA5A /* iniciarSesionViewController.swift */,
 				09117BF42C177F42002EEA5A /* Main.storyboard */,
 				09117BF72C177F44002EEA5A /* Assets.xcassets */,
 				09117BF92C177F44002EEA5A /* LaunchScreen.storyboard */,
@@ -143,6 +157,12 @@
 			dependencies = (
 			);
 			name = Snapchat;
+			packageProductDependencies = (
+				09117C212C178ACA002EEA5A /* FirebaseAuth */,
+				09117C232C178ACA002EEA5A /* FirebaseAuthCombine-Community */,
+				09117C252C178ACA002EEA5A /* FirebaseDatabase */,
+				09117C272C178ACA002EEA5A /* FirebaseStorage */,
+			);
 			productName = Snapchat;
 			productReference = 09117BEB2C177F42002EEA5A /* Snapchat.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 09117BE22C177F42002EEA5A;
+			packageReferences = (
+				09117C202C178ACA002EEA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 09117BEC2C177F42002EEA5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09117BFB2C177F44002EEA5A /* LaunchScreen.storyboard in Resources */,
+				09117C1F2C1784DF002EEA5A /* GoogleService-Info.plist in Resources */,
 				09117BF82C177F44002EEA5A /* Assets.xcassets in Resources */,
+				09117C302C179305002EEA5A /* imagen2.png in Resources */,
 				09117BF62C177F42002EEA5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09117BF32C177F42002EEA5A /* ViewController.swift in Sources */,
+				09117BF32C177F42002EEA5A /* iniciarSesionViewController.swift in Sources */,
 				09117BEF2C177F42002EEA5A /* AppDelegate.swift in Sources */,
 				09117BF12C177F42002EEA5A /* SceneDelegate.swift in Sources */,
 			);
@@ -439,6 +464,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Snapchat;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -466,6 +492,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Snapchat;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -596,6 +623,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09117C202C178ACA002EEA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09117C212C178ACA002EEA5A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09117C202C178ACA002EEA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		09117C232C178ACA002EEA5A /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09117C202C178ACA002EEA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		09117C252C178ACA002EEA5A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09117C202C178ACA002EEA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		09117C272C178ACA002EEA5A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09117C202C178ACA002EEA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 09117BE32C177F42002EEA5A /* Project object */;
 }
